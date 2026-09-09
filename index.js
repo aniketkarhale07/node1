@@ -1,9 +1,9 @@
 const express = require('express')
 const app = express()
-const port = 3001
+const port = 3000
 
 app.get('/', (req, res) => {
-  res.send('<h1>hellow this is nodejs project using jenkins</h1>')
+  res.send('<h1>hellow this is nodejs project using jenkins** </h1>')
 })
 
 app.listen(port,'0.0.0.0', () => {
