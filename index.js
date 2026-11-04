@@ -6,7 +6,7 @@ const port = 3000;
 app.get('/', (req, res) => {
     res.send(`
         <h1>Hello, this is a Node.js project using Jenkins</h1>
-        <h2>Version: 1.0.0</h2>
+        <h2>Version: 2.0.0</h2>
     `);
 });
 
